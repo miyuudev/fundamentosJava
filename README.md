@@ -22,9 +22,9 @@ char => caractere
 
 if...else || switch || while loop || for loop
 
+
+
 ## Vetores  
-
-
 
 ## ArrayList  
 
@@ -44,4 +44,12 @@ if...else || switch || while loop || for loop
 
 ## Herança e Polimorfismo  
 
-## Tratamento de   
+## Tratamento de dados
+
+Tipo       | O que       | Definicao
+---------- | :---------- | :-------
+interface | Contrato | Define oque uma classe deve fazer  
+abstract | Classe incompleta | Base com logica + obrigacao de implementar partes  
+record | Classe de dados | Guardar dados de forma simples  
+enum | Lista fixa | Representar valores constantes  
+annotation | Metadado | Configurar comportamento (Spring, JPA, etc)
