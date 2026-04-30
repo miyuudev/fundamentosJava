@@ -77,6 +77,11 @@ public class Main {
         
         exCondicoes.soma(num6);
 
+        scan.nextLine();
+
+        Matrix matrix = new Matrix();
+        matrix.posicao();
+
         scan.close();
     }
 }

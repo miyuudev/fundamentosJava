@@ -22,8 +22,6 @@ char => caractere
 
 if...else || switch || while loop || for loop
 
-
-
 ## Vetores  
 
 ## ArrayList  

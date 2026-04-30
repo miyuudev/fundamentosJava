@@ -1,0 +1,34 @@
+package vector;
+
+import java.util.Scanner;
+
+public class Ex01 {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        int[] vectorA = new int[5];
+        int[] vectorB = new int[vectorA.length];
+        for(int i=0; i<vectorA.length; i++) {
+            System.out.println("Entre com o valor da posicao: " + i);
+            vectorA[i] = scan.nextInt();
+
+            vectorB[i] = vectorA[i];
+        }
+        System.out.println();
+
+        System.out.print("VetorA: ");
+        for(int i=0; i<vectorA.length; i++) {
+            System.out.print(vectorA[i] + " ");
+        }
+        System.out.println();
+
+        System.out.print("VetorB: ");
+        for(int i=0; i<vectorB.length; i++) {
+            System.out.print(vectorB[i] + " ");
+        }
+        System.out.println();
+        scan.close();
+    }
+
+}
