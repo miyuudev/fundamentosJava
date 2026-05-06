@@ -24,13 +24,26 @@ if...else || switch || while loop || for loop
 
 ## Vetores  
 
+Reverse -> o loop comeca pelo ultimo valor:  
+ex.  
+`String texto = "abc"`;  
+a  | b | c
+---|---|---
+0  | 1 | 2  
+
+`i = 2  // letra 'c'`  
+
+`for (int i = texto.length() - 1; i >= 0; i--)`  
+>[ int i = texto.length() ] - 1 -> inicia pelo ultimo valor do vetor ( 2 -> c )  
+>[ i-- ] -> subtrai 1 indice a cada volta  
+
+`Math.random()` → sorteia 🎲  
+`charAt()` → acessa letra/número dentro de uma string 🎯  
+`StringBuilder` → junta tudo 📦  
+
 ## ArrayList  
 
-## Loops (for, while)  
-
 ## Castings (mudança de tipos)  
-
-## Compilando e executando um programa Java  
 
 ## Começo programação Orientada Objetos  
 
