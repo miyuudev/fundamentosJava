@@ -1,3 +1,4 @@
+package teste;
 public class ExCondicoes {
 
     // [IF/ELSE] 👉 Verifique se um número é positivo, negativo ou zero

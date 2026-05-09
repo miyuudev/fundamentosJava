@@ -7,7 +7,7 @@ public class Ex06 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        int[] vectorA = new int[3];
+        int[] vectorA = new int[5];
 
         for(int i =0; i<vectorA.length; i++){
             System.out.println("Digite uma idade na posicao: " + i);
@@ -19,7 +19,7 @@ public class Ex06 {
         int soma = 0;
         for(int i =0; i<vectorA.length; i++){
             if(vectorA[i]>35){
-                soma += i;
+                soma += 1;
             } 
             System.out.print(vectorA[i] + " "); 
         }

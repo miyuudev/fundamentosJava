@@ -1,3 +1,4 @@
+package teste;
 import java.util.Random;
 
 public class Matrix {

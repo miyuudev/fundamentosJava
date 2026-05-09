@@ -26,7 +26,8 @@ if...else || switch || while loop || for loop
 
 Reverse -> o loop comeca pelo ultimo valor:  
 ex.  
-`String texto = "abc"`;  
+`String texto = "abc"`;
+
 a  | b | c
 ---|---|---
 0  | 1 | 2  
@@ -39,11 +40,7 @@ a  | b | c
 
 `Math.random()` → sorteia 🎲  
 `charAt()` → acessa letra/número dentro de uma string 🎯  
-`StringBuilder` → junta tudo 📦  
-
-## ArrayList  
-
-## Castings (mudança de tipos)  
+`StringBuilder` → junta tudo 📦
 
 ## Começo programação Orientada Objetos  
 
@@ -57,7 +54,7 @@ a  | b | c
 
 ## Tratamento de dados
 
-Tipo       | O que       | Definicao
+Tipo       | O que       | Definicao  
 ---------- | :---------- | :-------
 interface | Contrato | Define oque uma classe deve fazer  
 abstract | Classe incompleta | Base com logica + obrigacao de implementar partes  
